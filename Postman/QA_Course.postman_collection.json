@@ -50,10 +50,17 @@
 			"response": []
 		},
 		{
-			"name": "Get_method",
+			"name": "Get method",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
 				"url": {
 					"raw": "http://116.203.27.46:5002/get_method?name=Nadine&age=42",
 					"protocol": "http",
@@ -82,7 +89,7 @@
 			"response": []
 		},
 		{
-			"name": "Post Info_1",
+			"name": "Post User_info_1",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -91,12 +98,12 @@
 					"formdata": [
 						{
 							"key": "age",
-							"value": "40",
+							"value": "38",
 							"type": "text"
 						},
 						{
 							"key": "weight",
-							"value": "70",
+							"value": "62",
 							"type": "text"
 						},
 						{
@@ -107,21 +114,320 @@
 					]
 				},
 				"url": {
-					"raw": "http://116.203.27.46:5002/user_info_1",
-					"protocol": "http",
+					"raw": "{{VadimServer}}/user_info_1",
 					"host": [
-						"116",
-						"203",
-						"27",
-						"46"
+						"{{VadimServer}}"
 					],
-					"port": "5002",
 					"path": [
 						"user_info_1"
 					]
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Post 1-Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "login",
+							"value": "N-postman",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "postman",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{VadimServer}}/login",
+					"host": [
+						"{{VadimServer}}"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post 2-User-Info",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"age\": 38,\r\n    \"salary\": 1500,\r\n    \"name\": \"Somebody\",\r\n    \"auth_token\" : \"/s34lfgbj/N-postman/jjd909/46509kjkWpqc506postman18826evny\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{VadimServer}}/user_info",
+					"host": [
+						"{{VadimServer}}"
+					],
+					"path": [
+						"user_info"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post 3-New Data",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "38",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "3750",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Somebody",
+							"type": "text"
+						},
+						{
+							"key": "auth_token",
+							"value": "{{token}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{VadimServer}}/new_data",
+					"host": [
+						"{{VadimServer}}"
+					],
+					"path": [
+						"new_data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post 4-Pet-Info",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "weight",
+							"value": "23",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Pet-name",
+							"type": "text"
+						},
+						{
+							"key": "auth_token",
+							"value": "{{token}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{VadimServer}}/test_pet_info",
+					"host": [
+						"{{VadimServer}}"
+					],
+					"path": [
+						"test_pet_info"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post 5-Test-User",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "38",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "1950",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Somebody",
+							"type": "text"
+						},
+						{
+							"key": "auth_token",
+							"value": "{{token}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{VadimServer}}/get_test_user",
+					"host": [
+						"{{VadimServer}}"
+					],
+					"path": [
+						"get_test_user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post 6-Currency",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "auth_token",
+							"value": "{{token}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{VadimServer}}/currency",
+					"host": [
+						"{{VadimServer}}"
+					],
+					"path": [
+						"currency"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post 7-Curr-byn",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "auth_token",
+							"value": "{{token}}",
+							"type": "text"
+						},
+						{
+							"key": "curr_code",
+							"value": "292",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{VadimServer}}/curr_byn",
+					"host": [
+						"{{VadimServer}}"
+					],
+					"path": [
+						"curr_byn"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "token",
+			"value": "/s34lfgbj/N-postman/jjd909/46509kjkWpqc506postman18826evny"
+		},
+		{
+			"key": "VadimServer",
+			"value": "http://116.203.27.46:5002"
 		}
 	]
 }
