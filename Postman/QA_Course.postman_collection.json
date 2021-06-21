@@ -614,11 +614,15 @@
 									"    pm.response.to.have.status(200);\r",
 									"});\r",
 									"\r",
-									"let getRandomItem = pm.response.json();\r",
-									"let getRandomCur = Math.floor( (Math.random() * getRandomItem.length));\r",
+									"// let getRandomItem = pm.response.json();\r",
+									"// let getRandomCur = getRandomItem[Math.floor(Math.random() * getRandomItem.length)].Cur_ID;\r",
 									"\r",
-									"postman.setEnvironmentVariable(\"Cur_ID\", getRandomCur);\r",
-									""
+									"// postman.setEnvironmentVariable(\"Cur_ID\", getRandomCur);\r",
+									"// console.log(getRandomCur)\r",
+									"\r",
+									"\r",
+									"let getRandomCur = pm.response.json();\r",
+									"postman.setEnvironmentVariable(\"Cur_ID\", getRandomCur[Math.floor(Math.random() * getRandomCur.length)].Cur_ID);"
 								],
 								"type": "text/javascript"
 							}
