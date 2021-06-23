@@ -618,8 +618,7 @@
 									"// let getRandomCur = getRandomItem[Math.floor(Math.random() * getRandomItem.length)].Cur_ID;\r",
 									"\r",
 									"// postman.setEnvironmentVariable(\"Cur_ID\", getRandomCur);\r",
-									"// console.log(getRandomCur)\r",
-									"\r",
+									"// console.log(getRandomCur);\r",
 									"\r",
 									"let getRandomCur = pm.response.json();\r",
 									"postman.setEnvironmentVariable(\"Cur_ID\", getRandomCur[Math.floor(Math.random() * getRandomCur.length)].Cur_ID);"
@@ -718,6 +717,93 @@
 							],
 							"path": [
 								"curr_byn"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "HW-02 ***",
+			"item": [
+				{
+					"name": "Post 6-Currency ***",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// GOOD\r",
+									"\r",
+									"let getRandomItem = pm.response.json();\r",
+									"let getRandomCur = getRandomItem[Math.floor(Math.random() * getRandomItem.length)].Cur_ID;\r",
+									"\r",
+									"postman.setEnvironmentVariable(\"Cur_ID\", getRandomCur);\r",
+									"\r",
+									"console.log(getRandomItem);\r",
+									"console.log(getRandomItem[Math.floor(Math.random() * getRandomItem.length)]);\r",
+									"console.log(getRandomCur);\r",
+									"\r",
+									"let curr_list = [];\r",
+									"\r",
+									"for (let n = 0; n < getRandomItem.length; n++) {\r",
+									"    // console.log(getRandomItem[n].Cur_ID); \r",
+									"    curr_list.push(getRandomItem[n].Cur_ID);\r",
+									"};\r",
+									"console.log(curr_list);\r",
+									"\r",
+									"// дальше скрипт для ****\r",
+									"\r",
+									"let curr_200 = [];\r",
+									"\r",
+									"for (let i = 0; i < curr_list.length; i++) {\r",
+									"    const options = {\r",
+									"        method : 'POST',\r",
+									"        url: 'http://168.119.182.98:5002/curr_byn',\r",
+									"        body: {\r",
+									"            mode: 'formdata',\r",
+									"            formdata: [\r",
+									"                {key: 'auth_token', value: pm.environment.get(\"token\")},\r",
+									"                {key: 'curr_code', value: curr_list[i]},\r",
+									"                ]\r",
+									"            },\r",
+									"        };\r",
+									"\r",
+									"    pm.sendRequest(options, function (error, response) {\r",
+									"            if (pm.expect(response).to.have.property('code', 200)) {\r",
+									"                console.log(\"Ура! 200!\");\r",
+									"                curr_200.push(JSON.parse(responseBody)); \r",
+									"                };  \r",
+									"        });\r",
+									"};\r",
+									"console.log(curr_200); \r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "auth_token",
+									"value": "{{token}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{VadimServer}}/currency",
+							"host": [
+								"{{VadimServer}}"
+							],
+							"path": [
+								"currency"
 							]
 						}
 					},
