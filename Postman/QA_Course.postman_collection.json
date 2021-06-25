@@ -141,7 +141,19 @@
 							"script": {
 								"exec": [
 									"let jsonData = JSON.parse(responseBody);\r",
-									"postman.setEnvironmentVariable(\"token\", jsonData.token);"
+									"postman.setEnvironmentVariable(\"token\", jsonData.token);\r",
+									"\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -734,12 +746,8 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"// GOOD\r",
-									"\r",
 									"let getRandomItem = pm.response.json();\r",
 									"let getRandomCur = getRandomItem[Math.floor(Math.random() * getRandomItem.length)].Cur_ID;\r",
-									"\r",
-									"postman.setEnvironmentVariable(\"Cur_ID\", getRandomCur);\r",
 									"\r",
 									"console.log(getRandomItem);\r",
 									"console.log(getRandomItem[Math.floor(Math.random() * getRandomItem.length)]);\r",
@@ -753,12 +761,11 @@
 									"};\r",
 									"console.log(curr_list);\r",
 									"\r",
-									"// дальше скрипт для ****\r",
-									"\r",
 									"let curr_200 = [];\r",
 									"\r",
+									"// дальше скрипт для ***\r",
 									"for (let i = 0; i < curr_list.length; i++) {\r",
-									"    const options = {\r",
+									"    const options = {   // параметры sendRequest\r",
 									"        method : 'POST',\r",
 									"        url: 'http://168.119.182.98:5002/curr_byn',\r",
 									"        body: {\r",
@@ -769,12 +776,16 @@
 									"                ]\r",
 									"            },\r",
 									"        };\r",
-									"\r",
+									"    \r",
 									"    pm.sendRequest(options, function (error, response) {\r",
-									"            if (pm.expect(response).to.have.property('code', 200)) {\r",
-									"                console.log(\"Ура! 200!\");\r",
-									"                curr_200.push(JSON.parse(responseBody)); \r",
-									"                };  \r",
+									"        if (response.code == 200) {\r",
+									"            let jsonData = response.json();\r",
+									"            console.log(\"Ура! 200!\");\r",
+									"            console.log(jsonData);\r",
+									"                if (jsonData.Cur_OfficialRate == true) {\r",
+									"                    curr_200.push(jsonData); \r",
+									"                    }; \r",
+									"            }; \r",
 									"        });\r",
 									"};\r",
 									"console.log(curr_200); \r",
