@@ -778,18 +778,88 @@
 									"        };\r",
 									"    \r",
 									"    pm.sendRequest(options, function (error, response) {\r",
-									"        if (response.code == 200) {\r",
-									"            let jsonData = response.json();\r",
-									"            console.log(\"Ура! 200!\");\r",
-									"            console.log(jsonData);\r",
-									"                if (jsonData.Cur_OfficialRate == true) {\r",
-									"                    curr_200.push(jsonData); \r",
-									"                    }; \r",
+									"        if (response.code == 200 && response.json().Cur_OfficialRate == true) {\r",
+									"            // console.log(\"Ура! 200!\");\r",
+									"            console.log(response.json());\r",
+									"            curr_200.push(response.json()); \r",
 									"            }; \r",
 									"        });\r",
 									"};\r",
 									"console.log(curr_200); \r",
 									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "auth_token",
+									"value": "{{token}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{VadimServer}}/currency",
+							"host": [
+								"{{VadimServer}}"
+							],
+							"path": [
+								"currency"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post 6-Currency *** Promice",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let getRandomItem = pm.response.json();\r",
+									"let arrPromise = [];\r",
+									"\r",
+									"// for (let i = 0; i < 10; i++) {\r",
+									"for (let i = 0; i < getRandomItem.length; i++) {\r",
+									"    function sendRqst(i) {\r",
+									"        return new Promise (function(resolve, reject) {\r",
+									"            const options = {   // параметры sendRequest\r",
+									"            method : 'POST',\r",
+									"            url: 'http://168.119.182.98:5002/curr_byn',\r",
+									"            body: {\r",
+									"                mode: 'formdata',\r",
+									"                formdata: [\r",
+									"                    {key: 'auth_token', value: pm.environment.get(\"token\")},\r",
+									"                    {key: 'curr_code', value: getRandomItem[i].Cur_ID},\r",
+									"                    ]\r",
+									"                },\r",
+									"            };\r",
+									"    \r",
+									"            pm.sendRequest(options, function (error, response) {\r",
+									"                if (error) {\r",
+									"                    return reject(error);\r",
+									"                }\r",
+									"                return resolve(response);\r",
+									"            });\r",
+									"        });\r",
+									"    };\r",
+									"    arrPromise.push(sendRqst(i));\r",
+									"};\r",
+									"Promise.all (arrPromise).then(values => {\r",
+									"    let arr200 = values.filter(response => response.code == 200);\r",
+									"    let arrJSON = arr200.map(response => response.json());\r",
+									"        console.log(arrJSON);\r",
+									"        }).catch(error => {\r",
+									"            console.log(error);\r",
+									"            });"
 								],
 								"type": "text/javascript"
 							}
