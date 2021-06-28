@@ -131,7 +131,7 @@
 			]
 		},
 		{
-			"name": "HW-01+Tests",
+			"name": "HW-01-02 + Tests",
 			"item": [
 				{
 					"name": "Post 1-Login",
@@ -740,7 +740,7 @@
 			"name": "HW-02 ***",
 			"item": [
 				{
-					"name": "Post 6-Currency ***",
+					"name": "Post 6-Currency *** Draft",
 					"event": [
 						{
 							"listen": "test",
@@ -754,6 +754,7 @@
 									"console.log(getRandomCur);\r",
 									"\r",
 									"let curr_list = [];\r",
+									"let curr_200 = [];\r",
 									"\r",
 									"for (let n = 0; n < getRandomItem.length; n++) {\r",
 									"    // console.log(getRandomItem[n].Cur_ID); \r",
@@ -761,10 +762,83 @@
 									"};\r",
 									"console.log(curr_list);\r",
 									"\r",
-									"let curr_200 = [];\r",
-									"\r",
 									"// дальше скрипт для ***\r",
 									"for (let i = 0; i < curr_list.length; i++) {\r",
+									"// for (let i = 0; i < 10; i++) {\r",
+									"    // let ID = curr_list[i];\r",
+									"    // postman.setEnvironmentVariable(\"ID-Cur\", ID);\r",
+									"    const options = {   // параметры sendRequest\r",
+									"        method : 'POST',\r",
+									"        url: 'http://168.119.182.98:5002/curr_byn',\r",
+									"        body: {\r",
+									"            mode: 'formdata',\r",
+									"            formdata: [\r",
+									"                {key: 'auth_token', value: pm.environment.get(\"token\")},\r",
+									"                // {key: 'curr_code', value: pm.environment.get(\"ID-Cur\")},\r",
+									"                {key: 'curr_code', value: curr_list[i]},\r",
+									"                ]\r",
+									"            },\r",
+									"        };\r",
+									"    \r",
+									"    pm.sendRequest(options, function (error, response) {\r",
+									"        if (response.code == 200) {\r",
+									"            // console.log(\"Ура! 200!\");\r",
+									"            // console.log(response.json());\r",
+									"            curr_200.push(response.json()); \r",
+									"            }; \r",
+									"        console.log(curr_200); \r",
+									"        });\r",
+									"    \r",
+									"};\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "auth_token",
+									"value": "{{token}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{VadimServer}}/currency",
+							"host": [
+								"{{VadimServer}}"
+							],
+							"path": [
+								"currency"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post 6-Currency *** Fine",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let getRandomItem = pm.response.json();\r",
+									"let curr_list = [];\r",
+									"let curr_200 = [];\r",
+									"\r",
+									"for (let n = 0; n < getRandomItem.length; n++) {\r",
+									"    curr_list.push(getRandomItem[n].Cur_ID);\r",
+									"};\r",
+									"console.log(curr_list);\r",
+									"\r",
+									"for (let i = 0; i < curr_list.length; i++) { // for (let i = 0; i < 10; i++) {\r",
 									"    const options = {   // параметры sendRequest\r",
 									"        method : 'POST',\r",
 									"        url: 'http://168.119.182.98:5002/curr_byn',\r",
@@ -776,16 +850,14 @@
 									"                ]\r",
 									"            },\r",
 									"        };\r",
-									"    \r",
 									"    pm.sendRequest(options, function (error, response) {\r",
-									"        if (response.code == 200 && response.json().Cur_OfficialRate == true) {\r",
-									"            // console.log(\"Ура! 200!\");\r",
-									"            console.log(response.json());\r",
+									"        if (response.code == 200) {\r",
 									"            curr_200.push(response.json()); \r",
 									"            }; \r",
+									"        console.log(curr_200); \r",
 									"        });\r",
 									"};\r",
-									"console.log(curr_200); \r",
+									"\r",
 									""
 								],
 								"type": "text/javascript"
