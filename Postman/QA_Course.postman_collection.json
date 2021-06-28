@@ -770,6 +770,7 @@
 									"    const options = {   // параметры sendRequest\r",
 									"        method : 'POST',\r",
 									"        url: 'http://168.119.182.98:5002/curr_byn',\r",
+									"        // url: pm.environment.get('VadimServer') + '/curr_byn',\r",
 									"        body: {\r",
 									"            mode: 'formdata',\r",
 									"            formdata: [\r",
@@ -781,7 +782,7 @@
 									"        };\r",
 									"    \r",
 									"    pm.sendRequest(options, function (error, response) {\r",
-									"        if (response.code == 200) {\r",
+									"        if (response.code == 200 && response.json().Cur_OfficialRate != null) {\r",
 									"            // console.log(\"Ура! 200!\");\r",
 									"            // console.log(response.json());\r",
 									"            curr_200.push(response.json()); \r",
@@ -790,8 +791,7 @@
 									"        });\r",
 									"    \r",
 									"};\r",
-									"\r",
-									""
+									"console.log(\"Curr_array:\", curr_200); "
 								],
 								"type": "text/javascript"
 							}
@@ -838,7 +838,8 @@
 									"};\r",
 									"console.log(curr_list);\r",
 									"\r",
-									"for (let i = 0; i < curr_list.length; i++) { // for (let i = 0; i < 10; i++) {\r",
+									"for (let i = 0; i < curr_list.length; i++) { \r",
+									"// for (let i = 0; i < 10; i++) {\r",
 									"    const options = {   // параметры sendRequest\r",
 									"        method : 'POST',\r",
 									"        url: 'http://168.119.182.98:5002/curr_byn',\r",
@@ -851,14 +852,12 @@
 									"            },\r",
 									"        };\r",
 									"    pm.sendRequest(options, function (error, response) {\r",
-									"        if (response.code == 200) {\r",
+									"        if (response.code == 200 && response.json().Cur_OfficialRate != null) {\r",
 									"            curr_200.push(response.json()); \r",
 									"            }; \r",
 									"        console.log(curr_200); \r",
 									"        });\r",
-									"};\r",
-									"\r",
-									""
+									"};"
 								],
 								"type": "text/javascript"
 							}
