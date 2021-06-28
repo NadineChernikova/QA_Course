@@ -783,15 +783,15 @@
 									"    \r",
 									"    pm.sendRequest(options, function (error, response) {\r",
 									"        if (response.code == 200 && response.json().Cur_OfficialRate != null) {\r",
-									"            // console.log(\"Ура! 200!\");\r",
-									"            // console.log(response.json());\r",
+									"            console.log(\"Ура! 200!\");\r",
+									"            console.log(response.json());\r",
 									"            curr_200.push(response.json()); \r",
 									"            }; \r",
-									"        console.log(curr_200); \r",
+									"        console.log(curr_200);  //выводит массив после каждого запроса, пополняется по мере нахождения\r",
 									"        });\r",
 									"    \r",
 									"};\r",
-									"console.log(\"Curr_array:\", curr_200); "
+									"console.log(\"Curr_array:\", curr_200);   // выводится пустым до заполнения по реквестам"
 								],
 								"type": "text/javascript"
 							}
@@ -855,7 +855,7 @@
 									"        if (response.code == 200 && response.json().Cur_OfficialRate != null) {\r",
 									"            curr_200.push(response.json()); \r",
 									"            }; \r",
-									"        console.log(curr_200); \r",
+									"        console.log(curr_200); //выводит массив после каждого запроса, пополняется по мере нахождения\r",
 									"        });\r",
 									"};"
 								],
@@ -898,8 +898,8 @@
 									"let getRandomItem = pm.response.json();\r",
 									"let arrPromise = [];\r",
 									"\r",
-									"// for (let i = 0; i < 10; i++) {\r",
 									"for (let i = 0; i < getRandomItem.length; i++) {\r",
+									"// for (let i = 0; i < 10; i++) {\r",
 									"    function sendRqst(i) {\r",
 									"        return new Promise (function(resolve, reject) {\r",
 									"            const options = {   // параметры sendRequest\r",
@@ -922,14 +922,14 @@
 									"            });\r",
 									"        });\r",
 									"    };\r",
-									"    arrPromise.push(sendRqst(i));\r",
+									"    arrPromise.push(sendRqst(i));   // собирает массив всех респонсов\r",
 									"};\r",
 									"Promise.all (arrPromise).then(values => {\r",
 									"    let arr200 = values.filter(response => response.code == 200);\r",
 									"    let arrJSON = arr200.map(response => response.json());\r",
-									"        console.log(arrJSON);\r",
+									"        console.log(arrJSON);   // выводит массив 200х респонсов\r",
 									"        }).catch(error => {\r",
-									"            console.log(error);\r",
+									"            console.log(error); \r",
 									"            });"
 								],
 								"type": "text/javascript"
