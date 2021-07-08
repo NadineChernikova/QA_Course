@@ -1,0 +1,149 @@
+07-08 20:29:02.637  2843  2843 D Launcher.CellLayout: touch item:ShortcutInfo, id=222, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.android.todolist, className=com.android.todolist.MainActivity, screenId=6, container=-100, cellX=4, cellY=0, spanX=1, spanY=1, isLandscapePos=false
+07-08 20:29:02.679  1652  2195 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[864,155][1029,320] (has extras)} from uid 10091
+07-08 20:29:02.703   970  1003 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 2,com.android.todolist,-1,1652,2195)
+07-08 20:29:02.703   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:02.704   970  1003 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 3,com.android.todolist,-1,1652,2195)
+07-08 20:29:02.781  1652  1799 I ActivityManager: Start proc 3763:com.android.todolist/u0a348 for pre-top-activity {com.android.todolist/com.android.todolist.MainActivity} caller=com.miui.home
+07-08 20:29:02.850   970  1003 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 103,com.android.todolist,3763,1652,2195)
+07-08 20:29:02.853  6208 31070 I GST     : forePkg: com.android.todolist, preForePkg: com.miui.home
+07-08 20:29:02.853 30377 30393 D AutoInstallService: onForegroundInfoChanged: com.android.todolist
+07-08 20:29:02.854  5920  8296 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.android.todolist', mForegroundUid=10348, mForegroundPid=3763, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10091, mLastForegroundPid=2843, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+07-08 20:29:02.854  5033  7736 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.android.todolist', mForegroundUid=10348, mForegroundPid=3763, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10091, mLastForegroundPid=2843, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+07-08 20:29:02.854  5033  7736 I GameBoosterService: onForegroundInfoChanged: Cur=com.android.todolist	 last=com.miui.home
+07-08 20:29:02.882  5033  7736 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.android.todolist', mForegroundUid=10348, mForegroundPid=3763, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10091, mLastForegroundPid=2843, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+07-08 20:29:02.980   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:03.018  3763  3763 D View    : com.android.todolist initForcedUseForceDark: 1
+07-08 20:29:03.179  3763  3763 W Looper  : PerfMonitor looperActivity : package=com.android.todolist/.MainActivity time=0ms latency=321ms running=0ms  procState=2 ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] } historyMsgCount=4 (msgIndex=3 wall=116ms seq=3 running=44ms runnable=13ms io=49ms late=11ms h=android.app.ActivityThread$H w=110) (msgIndex=4 wall=197ms seq=4 running=139ms runnable=9ms io=31ms late=123ms h=android.app.ActivityThread$H w=159)
+07-08 20:29:03.183  2843  2843 D RecentsImpl: mActivityStateObserver com.android.todolist.MainActivity
+07-08 20:29:03.183  2843  2843 W RecentsImpl: onResumed className=com.android.todolist.MainActivity   mIsInAnotherPro=false
+07-08 20:29:03.318  1652  1797 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.todolist/1/com.android.todolist.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+07-08 20:29:03.321  1652  1797 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +635ms
+07-08 20:29:03.322   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:03.378   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:03.413  1652  2197 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{6d36148 u0 com.android.todolist/.MainActivity t24567} time:59663317
+07-08 20:29:03.418   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:03.472   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:04.604  3763  3789 W RenderInspector: DequeueBuffer time out on com.android.todolist/com.android.todolist.MainActivity, count=3, avg=17 ms, max=19 ms.
+07-08 20:29:05.706  9385  9385 I AndroidIME: AbstractIme.onActivate():88 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable : AutoStartEmojiInput = Disable : SimulateDeviceLocked = False : imeActionName = DONE : imeOptions = 6 : privateImeOptions = null, IncognitoMode = false, DeviceLocked = false
+07-08 20:29:05.942  4386  4420 W MiuiPerfServiceClient: interceptAndQueuing:3763|com.android.todolist|119|68|unknown|null|com.android.todolist/com.android.todolist.MainActivity|59664553218123|Slow issue draw commands|3
+07-08 20:29:05.981  9828 25754 W mum     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+07-08 20:29:05.981  9828  4915 W mum     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+07-08 20:29:06.002  9828  3813 W mum     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+07-08 20:29:06.004  9828  3813 W mum     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+07-08 20:29:08.566  9385  9385 I AndroidIME: AbstractIme.onActivate():88 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable : AutoStartEmojiInput = Disable : SimulateDeviceLocked = False : imeActionName = DONE : imeOptions = 6 : privateImeOptions = null, IncognitoMode = false, DeviceLocked = false
+07-08 20:29:16.481  1652  4409 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10348
+07-08 20:29:16.516  3763  3763 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+07-08 20:29:16.522  1652  6167 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 3763
+07-08 20:29:16.523   970  1003 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.android.todolist,3763,1652,6167)
+07-08 20:29:16.740  2843  2843 D RecentsImpl: mActivityStateObserver com.android.todolist.ListActivity
+07-08 20:29:16.740  2843  2843 W RecentsImpl: onResumed className=com.android.todolist.ListActivity   mIsInAnotherPro=false
+07-08 20:29:16.829  1652  1797 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +347ms
+07-08 20:29:16.830   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:16.873   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:16.877   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:16.906   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:17.070   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:17.338  1652  1785 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{e201093 u0 com.android.todolist/.ListActivity t24567} time:59677242
+07-08 20:29:18.351   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:18.463  9385  9385 I AndroidIME: AbstractIme.onActivate():88 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable : AutoStartEmojiInput = Disable : SimulateDeviceLocked = False : imeActionName = DONE : imeOptions = 6 : privateImeOptions = null, IncognitoMode = false, DeviceLocked = false
+07-08 20:29:18.517  1652  4409 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@ee6f68d
+07-08 20:29:18.577  9828  3814 W mum     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+07-08 20:29:18.580  9828  7385 W mum     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+07-08 20:29:27.901  9385  9385 I AndroidIME: AbstractIme.onActivate():88 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable : AutoStartEmojiInput = Disable : SimulateDeviceLocked = False : imeActionName = NEXT : imeOptions = 8000005 : privateImeOptions = null, IncognitoMode = false, DeviceLocked = false
+07-08 20:29:41.014  1652  6167 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10348
+07-08 20:29:41.067  1652  6167 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 3763
+07-08 20:29:41.067   970  1003 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.android.todolist,3763,1652,6167)
+07-08 20:29:41.174  2843  2843 D RecentsImpl: mActivityStateObserver com.android.todolist.MainActivity
+07-08 20:29:41.174  2843  2843 W RecentsImpl: onResumed className=com.android.todolist.MainActivity   mIsInAnotherPro=false
+07-08 20:29:41.295  1652  1797 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +281ms
+07-08 20:29:41.295   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:41.331   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:41.351   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:41.363   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:41.368   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:41.381   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:41.386   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:41.401   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:41.406   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:41.410   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:41.414   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:41.426   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:41.429   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:41.447   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:41.452   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:41.462   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:41.469   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:41.793  1652  1785 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{ffbc8fa u0 com.android.todolist/.MainActivity t24567} time:59701697
+07-08 20:29:42.529  1652  6167 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10348
+07-08 20:29:42.565  3763  3763 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+07-08 20:29:42.572  1652  3121 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 3763
+07-08 20:29:42.573   970  1003 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.android.todolist,3763,1652,3121)
+07-08 20:29:42.733  2843  2843 D RecentsImpl: mActivityStateObserver com.android.todolist.ListActivity
+07-08 20:29:42.733  2843  2843 W RecentsImpl: onResumed className=com.android.todolist.ListActivity   mIsInAnotherPro=false
+07-08 20:29:42.828  1652  1797 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +300ms
+07-08 20:29:42.829   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:42.870   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:42.896   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:42.902   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:43.341  1652  1785 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{2e54c49 u0 com.android.todolist/.ListActivity t24567} time:59703245
+07-08 20:29:43.859   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:44.553  1652  3121 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@512cc12
+07-08 20:29:44.672  1652  6167 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10348
+07-08 20:29:44.716  1652  3121 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 3763
+07-08 20:29:44.723   970  1003 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.android.todolist,3763,1652,3121)
+07-08 20:29:44.801  2843  2843 D RecentsImpl: mActivityStateObserver com.android.todolist.MainActivity
+07-08 20:29:44.801  2843  2843 W RecentsImpl: onResumed className=com.android.todolist.MainActivity   mIsInAnotherPro=false
+07-08 20:29:44.909  1652  1797 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +234ms
+07-08 20:29:44.909   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:44.937   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:44.942   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:44.971   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:44.974   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:44.992   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:44.998   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:45.007   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:45.013   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:45.020   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:45.025   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:45.038   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:45.043   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:45.055   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:45.060   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:45.073   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:45.079   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:45.405  1652  1785 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{44d975e u0 com.android.todolist/.MainActivity t24567} time:59705310
+07-08 20:29:45.656   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:52.665   978  3131 I vendor.qti.hardware.servicetracker@1.2-service: getClientConnections called for client: com.android.todolist
+07-08 20:29:53.800  1652  4409 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10348
+07-08 20:29:53.838  3763  3763 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+07-08 20:29:53.845  1652  2197 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 3763
+07-08 20:29:53.846   970  1003 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.android.todolist,3763,1652,2197)
+07-08 20:29:53.990  2843  2843 D RecentsImpl: mActivityStateObserver com.android.todolist.ListActivity
+07-08 20:29:53.990  2843  2843 W RecentsImpl: onResumed className=com.android.todolist.ListActivity   mIsInAnotherPro=false
+07-08 20:29:54.124  1652  1797 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +320ms
+07-08 20:29:54.125   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:54.170   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:54.175   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:54.208   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:54.634  1652  1785 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{6d00046 u0 com.android.todolist/.ListActivity t24567} time:59714539
+07-08 20:29:55.833  1652  3121 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@57ebffb
+07-08 20:29:58.342  1652  3121 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10348
+07-08 20:29:58.388  1652  4409 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 3763
+07-08 20:29:58.388   970  1003 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.android.todolist,3763,1652,4409)
+07-08 20:29:58.482  2843  2843 D RecentsImpl: mActivityStateObserver com.android.todolist.MainActivity
+07-08 20:29:58.482  2843  2843 W RecentsImpl: onResumed className=com.android.todolist.MainActivity   mIsInAnotherPro=false
+07-08 20:29:58.587  1652  1797 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +240ms
+07-08 20:29:58.590   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:58.595   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:58.605   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:58.639   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:58.644   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:58.663   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:58.670   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:58.687   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:58.697   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:58.729   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:58.756   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:58.769   970   970 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+07-08 20:29:59.088  1652  1785 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{1ef93cf u0 com.android.todolist/.MainActivity t24567} time:59718992
+07-08 20:30:00.112  3763  3789 W RenderInspector: DequeueBuffer time out on com.android.todolist/com.android.todolist.MainActivity, count=1, avg=24 ms, max=24 ms.

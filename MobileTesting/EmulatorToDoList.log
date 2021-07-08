@@ -1,0 +1,51 @@
+07-08 19:58:46.145  2124  3591 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10133
+07-08 19:58:48.153  2124  2225 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@ab834ec
+07-08 19:58:50.710  2124  4170 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10133
+07-08 19:58:51.899  2124  2551 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10133
+07-08 19:58:51.261 10889 10910 I chatty  : uid=10133(com.android.todolist) RenderThread identical 9 lines
+07-08 19:58:53.906  2124  4170 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@db950ae
+07-08 19:58:54.311  2124  4170 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10133
+07-08 19:58:52.587 10889 10910 I chatty  : uid=10133(com.android.todolist) RenderThread identical 2 lines
+07-08 19:58:56.865  2124  4170 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10133
+07-08 19:58:55.177 10889 10910 I chatty  : uid=10133(com.android.todolist) RenderThread identical 12 lines
+07-08 19:58:58.877  2124  4170 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@48a6a46
+07-08 19:58:59.843  2124  3591 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10133
+07-08 19:59:01.508  2124  2225 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10133
+07-08 19:59:00.319 10889 10910 I chatty  : uid=10133(com.android.todolist) RenderThread identical 9 lines
+07-08 19:59:02.178 10889 10910 I chatty  : uid=10133(com.android.todolist) RenderThread identical 4 lines
+07-08 19:59:03.321  3049  3049 I AndroidIME: LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable
+07-08 19:59:03.339  3049  3049 I Conv2QueryExtension: Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+07-08 19:59:03.551  2124  2551 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@6e7c7bc
+07-08 19:59:10.485  3049  3049 I AndroidIME: PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable
+07-08 19:59:10.500  3049  3049 I Conv2QueryExtension: Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+07-08 19:59:13.678  2124  2551 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10133
+07-08 19:59:14.088 10889 10910 I chatty  : uid=10133(com.android.todolist) RenderThread identical 9 lines
+07-08 20:00:11.578  2124  2225 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10133
+07-08 20:00:13.614  2124  2225 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@d5b62e1
+07-08 20:00:13.622  3049  3049 I AndroidIME: LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable
+07-08 20:00:13.665  3049  3049 I Conv2QueryExtension: Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+07-08 20:00:19.179  3049  3049 I AndroidIME: PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable
+07-08 20:00:19.196  3049  3049 I Conv2QueryExtension: Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+07-08 20:00:20.255  3049  3049 I AndroidIME: PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable
+07-08 20:00:20.272  3049  3049 I Conv2QueryExtension: Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+07-08 20:00:21.860  2124  5778 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10133
+07-08 20:00:22.436 10889 10910 I chatty  : uid=10133(com.android.todolist) RenderThread identical 9 lines
+07-08 20:00:23.457  2124  5778 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10133
+07-08 20:00:23.745 10889 10910 I chatty  : uid=10133(com.android.todolist) RenderThread identical 2 lines
+07-08 20:00:25.466  2124  5778 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@95d8ebd
+07-08 20:00:27.260  2124  3591 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10133
+07-08 20:00:28.293  2124  3594 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10133
+07-08 20:00:27.661 10889 10910 I chatty  : uid=10133(com.android.todolist) RenderThread identical 7 lines
+07-08 20:00:30.301  2124  3591 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@f270c40
+07-08 20:00:30.744  2124  3591 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10133
+07-08 20:00:31.062 10889 10910 I chatty  : uid=10133(com.android.todolist) RenderThread identical 2 lines
+07-08 20:00:31.128 10889 10910 I chatty  : uid=10133(com.android.todolist) RenderThread identical 2 lines
+07-08 20:00:32.269  2124  3591 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10133
+07-08 20:00:32.928 10889 10910 I chatty  : uid=10133(com.android.todolist) RenderThread identical 4 lines
+07-08 20:00:34.282  2124  5253 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@573ffb
+07-08 20:00:34.814 10889 10910 I chatty  : uid=10133(com.android.todolist) RenderThread identical 22 lines
+07-08 20:00:35.581  2124  5253 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10133
+07-08 20:00:37.778  2124  3591 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10133
+07-08 20:00:36.258 10889 10910 I chatty  : uid=10133(com.android.todolist) RenderThread identical 10 lines
+07-08 20:00:39.798  2124  5253 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@d06dc69
+07-08 20:00:40.694 10889 10910 I chatty  : uid=10133(com.android.todolist) RenderThread identical 35 lines
