@@ -58,7 +58,7 @@ WHERE created_on = '2021-03-26 00:00:00';
 ```sql
 SELECT * 
 FROM qa_users
-WHERE username LIKE 'Anna%';
+WHERE username LIKE '%Anna%';
 ```
 *11. Вывести пользователей, где в имени в конце есть 8*
 ```sql
