@@ -1,0 +1,10 @@
+{"name" : "Denny",
+ "job" : "race driver", 
+ "age" : 35,
+ "salary" : 5000,
+ "pet" : {
+	 "dogname" : "Enzo",
+	 "bread" : "Golden Retriever",
+	 "age" : 15
+ 	},
+}
