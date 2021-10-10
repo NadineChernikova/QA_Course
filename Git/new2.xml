@@ -1,3 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<heroes>
+	<master>
+		<name>Denny</name>
+		<job>race-driver</job>
+		<age>35</age>
+		<salary>5000</salary>
+	</master>
+	<pet>
+		<dogname>Enzo</dogname>
+		<breed>Golden Retriever</breed>
+		<age>15</age>
+	</pet>
+</heroes>
 
