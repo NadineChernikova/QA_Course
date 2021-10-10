@@ -1,10 +1,13 @@
-{"name" : "Denny",
- "job" : "race-driver", 
- "age" : 35,
- "salary" : 5000,
+{"name" : "Nadine",
+ "job" : "QA Engineer", 
+ "salary" : 1000,
  "pet" : {
-	 "dogname" : "Enzo",
-	 "breed" : "Golden Retriever",
-	 "age" : 15
- 	}
+	 "dogname" : "Marta",
+	 "breed" : "Springer Spaniel",
+	 "age" : 4
+ 	},
+ "movie" : "Forest Gump",
+ "food"  : "Salmon",
+ "season" : "Autemn",
+ "country" : "Argentina"
 }
