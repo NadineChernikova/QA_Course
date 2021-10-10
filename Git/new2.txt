@@ -1,1 +1,2 @@
-Denny, race-driver, 35, 5000, pet: dog - Enzo, golden retriever, 15 
+Denny, race-driver, 35, 5000, 
+pet: Enzo, Golden Retriever, 15 
