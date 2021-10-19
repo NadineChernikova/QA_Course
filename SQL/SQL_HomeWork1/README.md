@@ -4,8 +4,8 @@
 Подключится к 
 Host: 159.69.151.133
 Port: 5056
-User: user_22_44
-Pass: 123
+User: user_22_xx
+Pass: *****
 Table: qa_users
 ```
 
