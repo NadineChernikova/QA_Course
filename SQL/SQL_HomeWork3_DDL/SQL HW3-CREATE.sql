@@ -69,6 +69,7 @@ CREATE TABLE claim (
 
 
 -- 3. Добавить таблицу Suppliers с полями id, sup_name
+
 CREATE TABLE suppliers (
 	id serial PRIMARY KEY,
 	sup_name varchar (50) NOT NULL
