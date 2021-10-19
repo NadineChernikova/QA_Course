@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<heroes>
+<person>
 	<master>
-		<name>Denny</name>
-		<job>race-driver</job>
-		<age>35</age>
-		<salary>5000</salary>
+		<name>Nadine</name>
+		<job>QA Engineer</job>
+		<salary>1000</salary>
+		<movie>Forest Gump</movie>
+		<food>Salmon</food>
+		<season>Autemn</season>
+		<country>Argentina</country>
+
 	</master>
 	<pet>
-		<dogname>Enzo</dogname>
-		<breed>Golden Retriever</breed>
-		<age>15</age>
+		<dogname>Marta</dogname>
+		<breed>Springer Spaniel</breed>
+		<age>4</age>
 	</pet>
-</heroes>
+</person>
 
