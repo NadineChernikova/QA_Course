@@ -22,7 +22,7 @@ Pass: | ******
   + У каждой таблицы должно быть поле id
   + id автоинкрементальный и является первичным ключом
 
-<code>[SQL-CREATE TABLE](https://github.com/NadineChernikova/QA_Course/blob/main/SQL/SQL_HomeWork3_DDL/SQL%20HW3-CREATE.sql)
+<code>[CREATE TABLE.sql](https://github.com/NadineChernikova/QA_Course/blob/main/SQL/SQL_HomeWork3_DDL/SQL%20HW3-CREATE.sql)
 </code>
 <details>
   <summary>DBeaver ER Diagram</summary>
@@ -32,7 +32,7 @@ Pass: | ******
 
 *2. Заполните таблицы данными. Не менее 10 строк в каждой таблице*
 
-<code>[SQL-INSERT INTO](https://github.com/NadineChernikova/QA_Course/blob/main/SQL/SQL_HomeWork3_DDL/SQL%20HW3-INSERT.sql)
+<code>[INSERT INTO.sql](https://github.com/NadineChernikova/QA_Course/blob/main/SQL/SQL_HomeWork3_DDL/SQL%20HW3-INSERT.sql)
 </code>
 
 *3. Добавить таблицу Suppliers с полями id, sup_name*
@@ -49,7 +49,7 @@ INSERT INTO suppliers (id, sup_name) VALUES (DEFAULT, 'Novichek');
 
 *5. Обновить таблицу Materials. Добавить поле suplier_id которое связано с полем id в таблице suppliers*
 
-<code>[SQL-ALTER TABLE](https://github.com/NadineChernikova/QA_Course/blob/main/SQL/SQL_HomeWork3_DDL/SQL%20HW3-ALTER%20TABLE.sql)
+<code>[ALTER TABLE.sql](https://github.com/NadineChernikova/QA_Course/blob/main/SQL/SQL_HomeWork3_DDL/SQL%20HW3-ALTER%20TABLE.sql)
 </code>
 
 ```sql
