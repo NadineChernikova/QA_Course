@@ -1,15 +1,14 @@
--- 5. Обновить таблицу Materials. Добавить поле suplier_id которое связано с полем id в таблице Suppliers
+-- 5. РћР±РЅРѕРІРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ Materials. Р”РѕР±Р°РІРёС‚СЊ РїРѕР»Рµ suplier_id РєРѕС‚РѕСЂРѕРµ СЃРІСЏР·Р°РЅРѕ СЃ РїРѕР»РµРј id РІ С‚Р°Р±Р»РёС†Рµ suppliers
 
 ALTER TABLE materials ADD suplier_id int;
 
 ALTER TABLE materials 
 ADD FOREIGN KEY (suplier_id) REFERENCES suppliers(id);
 
--- 6. Обновить таблицу Employees. Добавить varchar поле surname на 50 символов.
-
+--  6. РћР±РЅРѕРІРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ Employees. Р”РѕР±Р°РІРёС‚СЊ varchar РїРѕР»Рµ surname РЅР° 50 СЃРёРјРІРѕР»РѕРІ.
 ALTER TABLE employees ADD surname varchar(50);
 
---  7. Обновить таблицу Salary. Добавить varchar поле currency на 7 символов.
+--  7. РћР±РЅРѕРІРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ Salary. Р”РѕР±Р°РІРёС‚СЊ varchar РїРѕР»Рµ currency РЅР° 7 СЃРёРјРІРѕР»РѕРІ.
 
 ALTER TABLE salary ADD currency varchar(7);
 
