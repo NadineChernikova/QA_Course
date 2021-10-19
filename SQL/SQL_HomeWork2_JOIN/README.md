@@ -21,7 +21,6 @@ FROM employees
 INNER JOIN employees_salary
 ON employees.id = employees_salary.employee_id;
 ```
-
 *2. Вывести всех работников, у которых ЗП меньше 2000.*
 ```sql
 SELECT employee_name, monthly_salary 
