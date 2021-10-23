@@ -1,6 +1,5 @@
 # Netology SQLFREE-1 Homework
 
-
 **Подключится к облачной базе данных**
 Параметр | Значение 
 :-------- | :-------
@@ -10,15 +9,13 @@ DB: | postgres
 User: | netology
 Pass: | ******
 
-
-
 <details>
   <summary>Схема базы данных</summary>
 
   ![Схема базы данных](NetologySQL-Diagram.png)
 </details>
 
-## Написать запросы, по следующим задачам:
+## Написать запросы по следующим задачам:
 *1. Какое количество заказов было совершено* - (9465) 
 ```sql
 SELECT count(order_id) FROM orders; 
