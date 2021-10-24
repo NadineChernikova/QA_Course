@@ -2,7 +2,7 @@
 
 *Сделать скрин видео выполнения задания.*
 
-<a href="https://youtu.be/0M4MfwIMd6g" target="_blank">![DevTools](https://user-images.githubusercontent.com/83915765/138613507-f775c2d4-4b80-401f-bba4-77cda6d7577d.png)</a>
+[![DevTools](https://user-images.githubusercontent.com/83915765/138613507-f775c2d4-4b80-401f-bba4-77cda6d7577d.png)](https://youtu.be/0M4MfwIMd6g)
 
 0. Открыть сайт http://itcareer.pythonanywhere.com
 1. Открыть Chrome DevTools
