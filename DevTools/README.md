@@ -2,7 +2,8 @@
 
 *Сделать скрин видео выполнения задания.*
 
-Video here
+[![DevTools](https://img.youtube.com/vi/0M4MfwIMd6g/hqdefault.jpg)](https://youtu.be/0M4MfwIMd6g)
+
 
 0. Открыть сайт http://itcareer.pythonanywhere.com
 1. Открыть Chrome DevTools
