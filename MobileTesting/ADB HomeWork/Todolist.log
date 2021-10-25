@@ -1,0 +1,283 @@
+10-25 20:46:36.694  1753  1884 I ActivityManager: Force stopping com.android.todolist appid=10348 user=-1: deletePackageX
+10-25 20:46:36.747  1753  2057 W PackageManager: com.android.server.pm.Installer$InstallerException: android.os.ServiceSpecificException: Failed to delete /data/user_de/999/com.android.todolist (code 2)
+10-25 20:46:37.362  1753  2057 I ActivityManager: Force stopping com.android.todolist appid=10348 user=0: pkg removed
+10-25 20:46:37.986  1753  2173 I RollbackManager: broadcast=ACTION_PACKAGE_FULLY_REMOVED pkg=com.android.todolist
+10-25 20:46:37.986  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.lbe.security.miui/com.lbe.security.service.BootReceiver
+10-25 20:46:37.992  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.android.musicfx/.Compatibility$Receiver
+10-25 20:46:38.031  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.android.settings/.search.provider.UpdateReceiver
+10-25 20:46:38.031  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemanager.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+10-25 20:46:38.032  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.instantapps.appmanagement.InstantAppRemoveMonitor
+10-25 20:46:38.038  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.facebook.services/com.facebook.oxygen.services.fbns.RegisteredMqttSystemBroadcastReceiver
+10-25 20:46:38.038  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.apps.maps/com.google.android.libraries.social.peoplekit.thirdparty.viewcontrollers.ThirdPartyReceiver
+10-25 20:46:38.038  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+10-25 20:46:38.039  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+10-25 20:46:38.039  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.googlequicksearchbox.GelStubAppWatcher
+10-25 20:46:38.040  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.xiaomi.discover/com.xiaomi.market.data.MyPackageMonitor
+10-25 20:46:38.040  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.xiaomi.glgm/.data.MyPackageMonitor
+10-25 20:46:38.042  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.xiaomi.mipicks/com.xiaomi.market.data.MyPackageMonitor
+10-25 20:46:38.042  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.xiaomi.misettings/.usagestats.AppTimerReceiver
+10-25 20:46:38.043  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.xiaomi.xmsf/com.xiaomi.push.service.receivers.PkgUninstallReceiver
+10-25 20:46:38.043  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.alibaba.aliexpresshd/com.taobao.accs.EventReceiver
+10-25 20:46:38.043  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.facebook.katana/com.facebook.feed.platformads.AppInstallReceiver
+10-25 20:46:38.073  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.kaspersky.safekids/com.kaspersky.remote.security_service.base.KsUninstallReceiver
+10-25 20:46:38.073  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to ru.alfabank.mobile.android/com.kavsdk.AppInstallationReceiver
+10-25 20:46:38.073  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to ru.mail.cloud/ru.mail.libverify.utils.PackageStateReceiver
+10-25 20:46:38.080  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to ru.sberbankmobile/com.kavsdk.AppInstallationReceiver
+10-25 20:46:39.693  1753  1884 W XSpaceManagerService: update XSpace App: packageName:com.android.todolist, user:UserHandle{0}, action:android.intent.action.PACKAGE_REMOVED
+10-25 20:46:39.794  1753  1753 I ConditionProviders: Disallowing condition provider com.android.todolist
+10-25 20:46:41.677  1753  5513 W PackageManager: Could not find package setting for package: com.android.todolist
+10-25 20:46:46.602  1753  5765 W BroadcastQueueInjector: Unable to launch app ru.yandex.yandexnavi/10407 for broadcast Intent { act=android.intent.action.PACKAGE_FULLY_REMOVED dat=package:com.android.todolist flg=0x5000010 (has extras) }: process is not permitted to  auto start
+10-25 21:06:36.698  1753  2057 I InstallationStatistic: com.android.todolist|null|13032|101|17|10744|2097|0
+10-25 21:06:36.700  1753  2057 I com.android.server.pm.PackageManagerServiceInjector: MIUILOG-onPackageInstalled: PackageEvent { mTimeStamp=2021-10-25 21:06:36 mAction=Install mPackageName=com.android.todolist mReturnCode=-15 mReturnMsg=installPackageLI mVersionCode=0 mVersionName=mInstallerPkgName=
+10-25 21:22:18.824  1753  2057 I InstallationStatistic: com.android.todolist|null|4567|94|15|1517|2214|0
+10-25 21:22:18.825  1753  2057 I AppsFilter: interaction: PackageSetting{f6cd916 ru.netology.netologyvoiceassistant/10384} -> PackageSetting{3a098a2 com.android.todolist/10408} BLOCKED
+10-25 21:22:18.875  1753  2430 I MiuiCompatModePackages: package com.android.todolist updated, removing config
+10-25 21:22:18.911  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.lbe.security.miui/com.lbe.security.service.BootReceiver
+10-25 21:22:18.912  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.packageinstaller/com.android.packageinstaller.PackageInstalledReceiver
+10-25 21:22:18.922  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.android.settings/.search.provider.UpdateReceiver
+10-25 21:22:18.923  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemanager.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+10-25 21:22:18.924  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+10-25 21:22:18.940  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+10-25 21:22:18.940  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+10-25 21:22:18.940  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.googlequicksearchbox.GelStubAppWatcher
+10-25 21:22:18.944  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.miui.global.packageinstaller/.AppInstalledReceiver
+10-25 21:22:18.944  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.xiaomi.discover/com.xiaomi.market.data.MyPackageMonitor
+10-25 21:22:18.945  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.xiaomi.glgm/.data.MyPackageMonitor
+10-25 21:22:18.945  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.xiaomi.mipicks/com.xiaomi.market.data.MyPackageMonitor
+10-25 21:22:18.945  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.xiaomi.misettings/.usagestats.AppTimerReceiver
+10-25 21:22:18.945  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.facebook.katana/com.facebook.feed.platformads.AppInstallReceiver
+10-25 21:22:18.945  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.l/com.appodeal.ads.AppodealPackageAddedReceiver
+10-25 21:22:18.945  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to ru.alfabank.mobile.android/com.kavsdk.AppInstallationReceiver
+10-25 21:22:18.945  1753  1884 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to ru.sberbankmobile/com.kavsdk.AppInstallationReceiver
+10-25 21:22:20.428  1753  1884 W XSpaceManagerService: update XSpace App: packageName:com.android.todolist, user:UserHandle{0}, action:android.intent.action.PACKAGE_ADDED
+10-25 21:26:19.618  1753  4737 W XSpaceManagerService: checkXSpaceControl, from:com.miui.home, to:com.android.todolist, with act:android.intent.action.MAIN, callingUserId:0, toUserId:0
+10-25 21:26:19.619  1753  4737 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[458,790][623,955] (has extras)} from uid 10091
+10-25 21:26:19.690  1753  1888 I ActivityManager: Start proc 19465:com.android.todolist/u0a408 for pre-top-activity {com.android.todolist/com.android.todolist.MainActivity} caller=com.miui.home
+10-25 21:26:20.183 19465 19465 W Looper  : PerfMonitor looperActivity : package=com.android.todolist/.MainActivity time=0ms latency=413ms running=0ms  procState=2 ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] } historyMsgCount=4 (msgIndex=3 wall=128ms seq=3 running=102ms runnable=7ms io=11ms late=14ms h=android.app.ActivityThread$H w=110) (msgIndex=4 wall=274ms seq=4 running=224ms runnable=11ms io=16ms late=140ms h=android.app.ActivityThread$H w=159)
+10-25 21:26:20.451  1753  1822 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{386f8e2 u0 com.android.todolist/.MainActivity t32196} time:61290626
+10-25 21:27:18.389  1753  4738 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10408
+10-25 21:27:18.418  1753  4716 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 19465
+10-25 21:27:19.084  1753  1822 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{a3046d u0 com.android.todolist/.ListActivity t32196} time:61349259
+10-25 21:27:20.404  1753  5477 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@481fbf1
+10-25 21:27:29.887  1753  4716 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10408
+10-25 21:27:29.919  1753  4738 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 19465
+10-25 21:27:30.545  1753  1822 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{e7387ca u0 com.android.todolist/.MainActivity t32196} time:61360720
+10-25 21:27:30.999  1753  3313 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@c16eb59
+10-25 21:27:34.479  1753  4738 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10408
+10-25 21:27:34.510  1753  4738 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 19465
+10-25 21:27:35.141  1753  1822 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{2c2a664 u0 com.android.todolist/.ListActivity t32196} time:61365316
+10-25 21:27:36.492  1753  4716 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@3f6dacb
+10-25 21:36:31.016  1753  5757 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{2c2a664 u0 com.android.todolist/.ListActivity t32196} time:61901192
+10-25 21:40:15.310  1753  5484 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{2c2a664 u0 com.android.todolist/.ListActivity t32196} time:62125485
+10-25 21:41:15.599  1753  4738 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{2c2a664 u0 com.android.todolist/.ListActivity t32196} time:62185774
+10-25 21:44:16.393  1753  3358 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{2c2a664 u0 com.android.todolist/.ListActivity t32196} time:62366569
+10-25 21:47:55.179  1753  4737 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{2c2a664 u0 com.android.todolist/.ListActivity t32196} time:62585354
+10-25 22:08:12.798  1753  2747 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{2c2a664 u0 com.android.todolist/.ListActivity t32196} time:63802973
+10-25 22:23:03.053  1753  1822 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{2c2a664 u0 com.android.todolist/.ListActivity t32196} time:64693228
+10-25 22:23:07.410  1753  2847 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10408
+10-25 22:23:07.439  1753  2847 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 19465
+10-25 22:23:08.100  1753  1822 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{b87ac65 u0 com.android.todolist/.MainActivity t32196} time:64698275
+10-25 22:23:13.305  1753  5477 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.About} from uid 10408
+10-25 22:23:13.343  1753  5477 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 19465
+10-25 22:23:13.976  1753  1822 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{c21c44a u0 com.android.todolist/.About t32196} time:64704151
+10-25 22:23:15.103  1753  1822 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{b87ac65 u0 com.android.todolist/.MainActivity t32196} time:64705278
+10-25 22:23:15.894  1753  2316 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10408
+10-25 22:23:15.927  1753  2847 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 19465
+10-25 22:23:16.571  1753  1822 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{41c5bd u0 com.android.todolist/.ListActivity t32196} time:64706746
+10-25 22:23:17.895  1753  5477 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@cf9885e
+10-25 22:23:27.093  1753  4737 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10408
+10-25 22:23:27.120  1753  4737 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 19465
+10-25 22:23:27.171  2960  2960 D RecentsImpl: mActivityStateObserver com.android.todolist.MainActivity
+10-25 22:23:27.171  2960  2960 W RecentsImpl: onResumed className=com.android.todolist.MainActivity   mIsInAnotherPro=false
+10-25 22:23:27.719  1753  1822 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{9f48928 u0 com.android.todolist/.MainActivity t32196} time:64717894
+10-25 22:23:28.281  1753  4725 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10408
+10-25 22:23:28.304 19465 19465 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+10-25 22:23:28.307  1753  3340 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 19465
+10-25 22:23:28.383  2960  2960 D RecentsImpl: mActivityStateObserver com.android.todolist.ListActivity
+10-25 22:23:28.383  2960  2960 W RecentsImpl: onResumed className=com.android.todolist.ListActivity   mIsInAnotherPro=false
+10-25 22:23:28.935  1753  1822 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{de9b77a u0 com.android.todolist/.ListActivity t32196} time:64719110
+10-25 22:23:29.695  1753  3340 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10408
+10-25 22:23:29.718  1753  5477 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 19465
+10-25 22:23:29.770  2960  2960 D RecentsImpl: mActivityStateObserver com.android.todolist.MainActivity
+10-25 22:23:29.770  2960  2960 W RecentsImpl: onResumed className=com.android.todolist.MainActivity   mIsInAnotherPro=false
+10-25 22:23:30.301  1753  2847 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@69c6165
+10-25 22:23:30.321  1753  1822 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{592ce7 u0 com.android.todolist/.MainActivity t32196} time:64720497
+10-25 22:23:31.452  4532  4532 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=Text imeActionName=DONE dump=[inputType=0x61 imeOptions=0x6 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=Name list label=null packageName=com.android.todolist autofillId=1073741824 fieldId=2131230821 fieldName=null extras=null hintLocales=null contentMimeTypes=null ], IncognitoMode = false, DeviceLocked = false
+10-25 22:23:31.708  3242 24557 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 22:23:31.712  3242 25383 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 22:23:31.732  3242 10906 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 22:23:31.734  3242 10906 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 22:23:37.599  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x0, 64727773, channel 'f4e581d com.android.todolist/com.android.todolist.MainActivity (server)'
+10-25 22:23:37.690  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x1, 64727864, channel 'f4e581d com.android.todolist/com.android.todolist.MainActivity (server)'
+10-25 22:23:37.726  1753  2847 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{f4e581d mode=1 rootTaskId=32196 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)  to null(0,0)
+10-25 22:23:37.739  1753  2795 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{901b083 mode=1 rootTaskId=32196 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+10-25 22:23:40.709  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x0, 64730882, channel '901b083 com.android.todolist/com.android.todolist.MainActivity (server)'
+10-25 22:23:40.799  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x1, 64730974, channel '901b083 com.android.todolist/com.android.todolist.MainActivity (server)'
+10-25 22:23:40.823  1753  2847 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10408
+10-25 22:23:40.823  1753  1821 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { cmp=com.android.todolist/.ListActivity (has extras) }
+10-25 22:23:40.842 19465 19465 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+10-25 22:23:40.846  1753  2847 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 19465
+10-25 22:23:40.846   977  1017 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.android.todolist,19465,1753,2847)
+10-25 22:23:40.863  1753  3340 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{901b083 mode=1 rootTaskId=32196 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)  to null(0,0)
+10-25 22:23:40.920  2960  2960 D RecentsImpl: mActivityStateObserver com.android.todolist.ListActivity
+10-25 22:23:40.920  2960  2960 W RecentsImpl: onResumed className=com.android.todolist.ListActivity   mIsInAnotherPro=false
+10-25 22:23:40.985  1753  1880 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +162ms
+10-25 22:23:40.986   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:23:40.997  1753  5477 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{bd6aa6b mode=1 rootTaskId=32196 u0 com.android.todolist/com.android.todolist.ListActivity}(1,1)
+10-25 22:23:41.010   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:23:41.014   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:23:41.033   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:23:41.483  1753  1822 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{ac7d2f1 u0 com.android.todolist/.ListActivity t32196} time:64731658
+10-25 22:23:42.835  1753  2847 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@773a3d3
+10-25 22:25:28.862  1753  4738 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10408
+10-25 22:25:28.892  1753  4737 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 19465
+10-25 22:25:28.892   977  1017 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.android.todolist,19465,1753,4737)
+10-25 22:25:28.942  2960  2960 D RecentsImpl: mActivityStateObserver com.android.todolist.MainActivity
+10-25 22:25:28.942  2960  2960 W RecentsImpl: onResumed className=com.android.todolist.MainActivity   mIsInAnotherPro=false
+10-25 22:25:28.997   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.003   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.006   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.022   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.026   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.041   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.044   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.062   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.066   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.069   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.071   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.089   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.095   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.106   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.111   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.123   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.128   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.140   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.146   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:29.489  1753  1822 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{aa17733 u0 com.android.todolist/.MainActivity t32196} time:64839664
+10-25 22:25:30.564   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:31.143   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:31.147   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:31.325   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:31.327   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:31.328   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:31.786   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:31.788   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:32.004   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:32.008   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:32.010   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:55.137  1753  4716 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10408
+10-25 22:25:55.159 19465 19465 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+10-25 22:25:55.162  1753  4716 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 19465
+10-25 22:25:55.163   977  1017 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.android.todolist,19465,1753,4716)
+10-25 22:25:55.234  2960  2960 D RecentsImpl: mActivityStateObserver com.android.todolist.ListActivity
+10-25 22:25:55.234  2960  2960 W RecentsImpl: onResumed className=com.android.todolist.ListActivity   mIsInAnotherPro=false
+10-25 22:25:55.301   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:55.319   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:55.323   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:55.338   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:25:55.787  1753  1822 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{28b77dd u0 com.android.todolist/.ListActivity t32196} time:64865962
+10-25 22:25:57.159  1753  4737 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@d47aa7b
+10-25 22:26:03.296  4532  4532 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=Text imeActionName=DONE dump=[inputType=0x61 imeOptions=0x6 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=New task label=null packageName=com.android.todolist autofillId=1073741824 fieldId=2131230877 fieldName=null extras=null hintLocales=null contentMimeTypes=null ], IncognitoMode = false, DeviceLocked = false
+10-25 22:26:03.361  3242 24557 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 22:26:03.377  3242 10907 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 22:26:06.173  1753  4716 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10408
+10-25 22:26:06.202  1753  4737 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 19465
+10-25 22:26:06.203   977  1017 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.android.todolist,19465,1753,4737)
+10-25 22:26:06.227  1753  4716 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{7b6ea13 mode=1 rootTaskId=32196 u0 com.android.todolist/com.android.todolist.ListActivity}(1,1)  to null(0,0)
+10-25 22:26:06.255  2960  2960 D RecentsImpl: mActivityStateObserver com.android.todolist.MainActivity
+10-25 22:26:06.256  2960  2960 W RecentsImpl: onResumed className=com.android.todolist.MainActivity   mIsInAnotherPro=false
+10-25 22:26:06.303  1753  1880 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +130ms
+10-25 22:26:06.303   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:06.311  1753  2847 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{6be2179 mode=1 rootTaskId=32196 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+10-25 22:26:06.314   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:06.317   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:06.336   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:06.339   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:06.355   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:06.363   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:06.377   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:06.403   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:06.415   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:06.419   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:06.430   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:06.434   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:06.447   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:06.451   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:06.799  1753  1822 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{25008e6 u0 com.android.todolist/.MainActivity t32196} time:64876974
+10-25 22:26:07.855   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:13.714  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x0, 64883888, channel '6be2179 com.android.todolist/com.android.todolist.MainActivity (server)'
+10-25 22:26:13.796  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x1, 64883971, channel '6be2179 com.android.todolist/com.android.todolist.MainActivity (server)'
+10-25 22:26:13.821  1753  1821 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { cmp=com.android.todolist/.ListActivity (has extras) }
+10-25 22:26:13.822  1753  2847 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10408
+10-25 22:26:13.848 19465 19465 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+10-25 22:26:13.852  1753  2847 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 19465
+10-25 22:26:13.853   977  1017 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.android.todolist,19465,1753,2847)
+10-25 22:26:13.879  1753  2847 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{6be2179 mode=1 rootTaskId=32196 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)  to null(0,0)
+10-25 22:26:13.926  2960  2960 D RecentsImpl: mActivityStateObserver com.android.todolist.ListActivity
+10-25 22:26:13.926  2960  2960 W RecentsImpl: onResumed className=com.android.todolist.ListActivity   mIsInAnotherPro=false
+10-25 22:26:13.991  1753  1880 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +169ms
+10-25 22:26:13.991   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:13.997  1753  4737 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{5e555cd mode=1 rootTaskId=32196 u0 com.android.todolist/com.android.todolist.ListActivity}(1,1)
+10-25 22:26:14.012   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:14.015   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:14.035   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:14.482  1753  1822 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{bbf01a3 u0 com.android.todolist/.ListActivity t32196} time:64884657
+10-25 22:26:15.838  1753  2847 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@57dc5f5
+10-25 22:26:19.002  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x0, 64889175, channel '5e555cd com.android.todolist/com.android.todolist.ListActivity (server)'
+10-25 22:26:19.085  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x1, 64889259, channel '5e555cd com.android.todolist/com.android.todolist.ListActivity (server)'
+10-25 22:26:19.117  4532  4532 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=Text imeActionName=DONE dump=[inputType=0x61 imeOptions=0x6 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=New task label=null packageName=com.android.todolist autofillId=1073741824 fieldId=2131230877 fieldName=null extras=null hintLocales=null contentMimeTypes=null ], IncognitoMode = false, DeviceLocked = false
+10-25 22:26:19.188  3242 24557 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 22:26:19.191  3242 11419 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 22:26:26.029  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x0, 64896202, channel '5e555cd com.android.todolist/com.android.todolist.ListActivity (server)'
+10-25 22:26:26.093  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x1, 64896268, channel '5e555cd com.android.todolist/com.android.todolist.ListActivity (server)'
+10-25 22:26:26.956  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x0, 64897129, channel '5e555cd com.android.todolist/com.android.todolist.ListActivity (server)'
+10-25 22:26:27.022  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x1, 64897196, channel '5e555cd com.android.todolist/com.android.todolist.ListActivity (server)'
+10-25 22:26:27.059  4532  4532 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=Text imeActionName=NEXT dump=[inputType=0x61 imeOptions=0x8000005 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=8 initialSelEnd=8 initialCapsMode=0x0 hintText=New task label=null packageName=com.android.todolist autofillId=1073741824 fieldId=2131230877 fieldName=null extras=null hintLocales=null contentMimeTypes=null ], IncognitoMode = false, DeviceLocked = false
+10-25 22:26:33.012  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x0, 64903185, channel '5e555cd com.android.todolist/com.android.todolist.ListActivity (server)'
+10-25 22:26:33.086  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x1, 64903261, channel '5e555cd com.android.todolist/com.android.todolist.ListActivity (server)'
+10-25 22:26:39.821  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x0, 64909995, channel '5e555cd com.android.todolist/com.android.todolist.ListActivity (server)'
+10-25 22:26:39.895  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x1, 64910070, channel '5e555cd com.android.todolist/com.android.todolist.ListActivity (server)'
+10-25 22:26:41.358  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x0, 64911532, channel '5e555cd com.android.todolist/com.android.todolist.ListActivity (server)'
+10-25 22:26:41.474  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x1, 64911648, channel '5e555cd com.android.todolist/com.android.todolist.ListActivity (server)'
+10-25 22:26:42.243  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x0, 64912417, channel '5e555cd com.android.todolist/com.android.todolist.ListActivity (server)'
+10-25 22:26:42.301  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x1, 64912475, channel '5e555cd com.android.todolist/com.android.todolist.ListActivity (server)'
+10-25 22:26:42.938  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x0, 64913110, channel '5e555cd com.android.todolist/com.android.todolist.ListActivity (server)'
+10-25 22:26:42.986  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x1, 64913160, channel '5e555cd com.android.todolist/com.android.todolist.ListActivity (server)'
+10-25 22:26:43.000  1753  4725 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10408
+10-25 22:26:43.000  1753  1821 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { cmp=com.android.todolist/.MainActivity }
+10-25 22:26:43.026  1753  4725 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 19465
+10-25 22:26:43.027   977  1017 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.android.todolist,19465,1753,4725)
+10-25 22:26:43.052  1753  2837 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{5e555cd mode=1 rootTaskId=32196 u0 com.android.todolist/com.android.todolist.ListActivity}(1,1)  to null(0,0)
+10-25 22:26:43.071  2960  2960 D RecentsImpl: mActivityStateObserver com.android.todolist.MainActivity
+10-25 22:26:43.071  2960  2960 W RecentsImpl: onResumed className=com.android.todolist.MainActivity   mIsInAnotherPro=false
+10-25 22:26:43.125  1753  1880 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +124ms
+10-25 22:26:43.125   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:43.138  1753  4725 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{67f49bb mode=1 rootTaskId=32196 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+10-25 22:26:43.145   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:43.147   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:43.167   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:43.181   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:43.188   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:43.194   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:43.206   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:43.210   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:43.224   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:43.227   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:43.241   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:43.248   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:43.258   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:43.264   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:43.275   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:43.280   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:43.624  1753  1822 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{c21229f u0 com.android.todolist/.MainActivity t32196} time:64913799
+10-25 22:26:44.098  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x0, 64914272, channel '67f49bb com.android.todolist/com.android.todolist.MainActivity (server)'
+10-25 22:26:44.164  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x1, 64914339, channel '67f49bb com.android.todolist/com.android.todolist.MainActivity (server)'
+10-25 22:26:44.181   977   977 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.todolist feature:AppClassifier feedback = 1
+10-25 22:26:44.256  1753  4725 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From Window{67f49bb mode=1 rootTaskId=32196 u0 com.android.todolist/com.android.todolist.MainActivity}(1,0)  to null(0,0)
+10-25 22:26:44.290  1753  4725 D MIUIInput: [FoucsChange]: Display  0 FocusedWindow From null(0,0)  to Window{a373edd mode=1 rootTaskId=32196 u0 com.android.todolist/com.android.todolist.MainActivity}(1,1)
+10-25 22:26:45.209  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x0, 64915383, channel 'a373edd com.android.todolist/com.android.todolist.MainActivity (server)'
+10-25 22:26:45.284  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x1, 64915458, channel 'a373edd com.android.todolist/com.android.todolist.MainActivity (server)'
+10-25 22:26:45.320  4532  4532 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=Text imeActionName=DONE dump=[inputType=0x61 imeOptions=0x6 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=Name list label=null packageName=com.android.todolist autofillId=1073741824 fieldId=2131230821 fieldName=null extras=null hintLocales=null contentMimeTypes=null ], IncognitoMode = false, DeviceLocked = false
+10-25 22:26:45.349  3242 10907 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 22:26:45.353  3242 11473 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 22:26:50.306  1753  2246 D MIUIInput: [MotionEvent] publisher action=0x0, 64920479, channel 'a373edd com.android.todolis
