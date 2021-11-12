@@ -1,0 +1,239 @@
+{
+	"info": {
+		"_postman_id": "8fda92d8-d214-4667-8cd9-c2124bb0c633",
+		"name": "Postman HW",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "01 HomeWork",
+			"item": [
+				{
+					"name": "01 - get_method",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/get_method?name=Forest Gump&age=40",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"get_method"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Forest Gump"
+								},
+								{
+									"key": "age",
+									"value": "40"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "02 - user_info_3",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Forest Gump",
+									"type": "text"
+								},
+								{
+									"key": "age",
+									"value": "35",
+									"type": "text"
+								},
+								{
+									"key": "salary",
+									"value": "1000000",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/user_info_3",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"user_info_3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "03 - object_info_1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/object_info_1?name=Enzo&age=15&weight=23",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"object_info_1"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Enzo"
+								},
+								{
+									"key": "age",
+									"value": "15"
+								},
+								{
+									"key": "weight",
+									"value": "23"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "04 - object_info_2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/object_info_2?name=Forest&age=30&salary=1500",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"object_info_2"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Forest"
+								},
+								{
+									"key": "age",
+									"value": "30"
+								},
+								{
+									"key": "salary",
+									"value": "1500"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "05 - object_info_3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/object_info_3?name=Korben Dallas&age=42&salary=3000",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"object_info_3"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Korben Dallas"
+								},
+								{
+									"key": "age",
+									"value": "42"
+								},
+								{
+									"key": "salary",
+									"value": "3000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "06 - object_info_4",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/object_info_4?name=Leeloo &age=24&salary=1300",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"object_info_4"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Leeloo "
+								},
+								{
+									"key": "age",
+									"value": "24"
+								},
+								{
+									"key": "salary",
+									"value": "1300"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "07 - user_info_2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Trinity ",
+									"type": "text"
+								},
+								{
+									"key": "age",
+									"value": "33",
+									"type": "text"
+								},
+								{
+									"key": "salary",
+									"value": "2500",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/user_info_2",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"user_info_2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
