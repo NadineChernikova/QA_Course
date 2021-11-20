@@ -1,6 +1,6 @@
-1) Посмотреть где я - pwd
-2) Создать папку - mkdir HomeWork
-3) Зайти в папку - cd HomeWork
+1) Посмотреть где я - ```pwd```
+2) Создать папку - ```mkdir HomeWork```
+3) Зайти в папку - ```cd HomeWork```
 4) Создать 3 папки - mkdir Folder1 Folder2 Folder3
 5) Зайти в любоую папку - cd Folder2
 6) Создать 5 файлов (3 txt, 2 json) - touch File1.txt File2.txt File3.txt index.html style.css script.js 
